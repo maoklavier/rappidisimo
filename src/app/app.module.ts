@@ -11,6 +11,8 @@ import { CanastaComponent } from './globals/canasta/canasta.component';
 
 import {appRouter} from './routing';
 import { CategoriaComponent } from './pages/categoria/categoria.component';
+import { SliderProductosComponent } from './globals/slider/slider-productos/slider-productos.component';
+import { SliderProductoItemComponent } from './globals/slider/slider-productos/slider-producto-item/slider-producto-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CategoriaComponent } from './pages/categoria/categoria.component';
     HeaderComponent,
     HomeComponent,
     CanastaComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    SliderProductosComponent,
+    SliderProductoItemComponent
   ],
   imports: [
     BrowserModule,
