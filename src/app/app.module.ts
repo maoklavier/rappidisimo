@@ -10,6 +10,7 @@ import { CanastaComponent } from './globals/canasta/canasta.component';
 // importo el Router
 
 import {appRouter} from './routing';
+import { CategoriaComponent } from './pages/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {appRouter} from './routing';
     MenuComponent,
     HeaderComponent,
     HomeComponent,
-    CanastaComponent
+    CanastaComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,

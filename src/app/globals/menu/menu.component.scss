@@ -1,0 +1,14 @@
+ul.menu{
+    display: block;
+    overflow: hidden;
+    li{
+        float: left;
+        margin-left: 10px;
+        list-style: none;
+        a{
+            color:green;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+    }
+}
