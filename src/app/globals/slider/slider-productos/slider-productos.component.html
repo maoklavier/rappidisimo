@@ -1,3 +1,6 @@
-<p>
-  slider-productos works!
-</p>
+
+<ul>
+  <li *ngFor="let unProducto of productos">
+    <app-slider-producto-item [producto] = "unProducto" (adicionar)="onAdicionar()"></app-slider-producto-item>
+  </li>
+</ul>

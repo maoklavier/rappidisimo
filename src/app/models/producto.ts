@@ -4,8 +4,8 @@ export class Producto {
     descripcion:string;
     precio:number;
     imagen:string;
-
-
+    id:number;
+    
 
     constructor(){
         
