@@ -25,7 +25,28 @@ export class SliderProductoItemComponent implements OnInit {
     // algun proceso aca
 
     // disparar el nuevo evento
-      this.adicionar.emit();
+   
+
+      setTimeout(() => {
+        this.adicionar.emit(this.producto);
+      }, 3000);
+  }
+
+  file(event){
+    let file = event.target.files[0];
+    console.log(file);
+
+    let reader = new FileReader();
+    reader.readAsDataURL(file);
+
+    reader.onload = function(){
+      console.log(reader.result);
+    };
+
+    reader.onerror = function(error){
+      console.log('Error: ', error);
+    };
+    console.log(this);
   }
 
 }

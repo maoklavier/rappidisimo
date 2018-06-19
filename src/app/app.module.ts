@@ -14,6 +14,8 @@ import { CategoriaComponent } from './pages/categoria/categoria.component';
 import { SliderProductosComponent } from './globals/slider/slider-productos/slider-productos.component';
 import { SliderProductoItemComponent } from './globals/slider/slider-productos/slider-producto-item/slider-producto-item.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+   // window.localStorage.setItem('contrasena',"This es la contrasena");
+  let con = localStorage.getItem('contrasena');
+  console.log(con)
+  }
 
   ngOnInit() {
   }
